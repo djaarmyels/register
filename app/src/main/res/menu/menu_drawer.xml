@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+
+
+    <item android:title="">
+        <menu>
+
+
+
+            <item
+                android:id="@+id/graph_menus"
+                android:title="Sales graph 30 days"
+
+                android:visible="false"
+                />
+            <item
+                android:id="@+id/graph_menu2s"
+                android:title="Sales graph 1 day"
+                android:visible="false"
+
+                />
+            <item
+            android:id="@+id/invoice_menus"
+            android:title="invoice"
+                android:visible="false"
+
+            />
+            <item
+                android:id="@+id/credit_menus"
+                android:title="credit"
+                android:visible="false"
+
+                />
+
+
+        </menu>
+
+
+    </item>
+
+
+    <group android:checkableBehavior="single">
+        <item android:title="Graphs">
+            <menu>
+                <item
+                    android:id="@+id/navigation_item_2"
+                    android:visible="false"
+                    android:title="title_spacing" />
+                <item
+                    android:id="@+id/graph_menu2"
+                    android:title="Sales graph 1 day"
+
+
+                    />
+            </menu>
+        </item>
+        <item
+            android:id="@+id/graph_menu"
+            android:title="Sales graph 30 days"
+
+
+            />
+    </group>
+    <group android:checkableBehavior="single">
+        <item android:title="Receipts">
+            <menu>
+
+                <item
+                    android:id="@+id/invoice_menu"
+                    android:title="invoice"
+
+
+                    />
+            </menu>
+        </item>
+        <item
+            android:id="@+id/credit_menu"
+            android:title="credit"
+
+
+            />
+    </group>
+
+
+</menu>
